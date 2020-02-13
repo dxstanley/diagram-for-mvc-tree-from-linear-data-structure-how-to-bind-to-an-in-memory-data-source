@@ -16,7 +16,7 @@ The  [SettingsAutoLayout](https://docs.devexpress.com/AspNet/DevExpress.Web.Mvc.
 <!-- default file list -->
 *Files to look at*:
 
-* [Index.cshtml](./CS/DiagramFromTree/Views/Index.cshtml) (VB [Index.vbhtml](./VB/DiagramFromTreeVB/Views/Index.vbhtml))
+* [Index.cshtml](./CS/DiagramFromTree/Views/Home/Index.cshtml) (VB [Index.vbhtml](./VB/DiagramFromTreeVB/Views/Home/Index.vbhtml))
 * [HomeController.cs](./CS/DiagramFromTree/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/DiagramFromTreeVB/Controllers/HomeController.vb))
 * [Department.cs](./CS/DiagramFromTree/Models/Department.cs) (VB: [Department.vb](./VB/DiagramFromTreeVB/Models/Department.vb))
 * [DepartmentProvider.cs](./CS/DiagramFromTree/Models/DepartmentProvider.cs) (VB: [DepartmentProvider.vb](./VB/DiagramFromTreeVB/Models/DepartmentProvider.vb))
