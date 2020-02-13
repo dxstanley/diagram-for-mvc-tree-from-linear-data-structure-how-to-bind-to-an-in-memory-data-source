@@ -13,7 +13,7 @@ The  [BatchUpdateRouteValues](https://docs.devexpress.com/AspNet/DevExpress.Web.
 
 The  [SettingsAutoLayout](https://docs.devexpress.com/AspNet/DevExpress.Web.Mvc.DiagramSettings.SettingsAutoLayout)  property specifies the auto-layout algorithm and orientation the extension uses to build a diagram.  
 
-<!-- default file list --> (необязательная секция, помещается в конец description тикета в СЦ)
+<!-- default file list -->
 *Files to look at*:
 
 * [Index.cshtml](./CS/DiagramFromTree/Views/Index.cshtml) (VB [Index.vbhtml](./VB/DiagramFromTreeVB/Views/Index.vbhtml))
