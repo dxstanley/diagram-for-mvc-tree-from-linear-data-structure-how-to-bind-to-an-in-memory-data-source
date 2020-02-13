@@ -1,0 +1,19 @@
+@{
+    ViewBag.Title = "Diagram for MVC - Tree from Linear Data Structure - How to bind the extension to an in-memory data source";
+}
+
+@model IEnumerable<DiagramFromTree.Models.Department>
+
+@Html.DevExpress().Diagram(settings =>
+{
+    settings.Name = "Diagram";
+
+    settings.BatchUpdateRouteValues = new { Controller = "Home", Action = "LinearUpdate" };
+
+    settings.Mappings.Node.Key = "ID";
+    settings.Mappings.Node.Text = "DepartmentName";
+    settings.Mappings.Node.ParentKey = "ParentID";
+
+    settings.SettingsAutoLayout.Type = DevExpress.Web.ASPxDiagram.DiagramAutoLayout.Tree;
+
+}).Bind(Model).GetHtml()
